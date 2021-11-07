@@ -13,20 +13,15 @@ This project is a
 ### Use python virtual environment
 **First, Clone and Install dependence**
 ```
-git clone https://github.com/hjlarry/flask-shop.git
-cd flask-shop
-python3 -m venv .venv
+git clone https://github.com/DanielPickens/Vue-Weather-App.git
+cd Vue Weather App
+
 # on windows, you should run .venv\Scripts\activate.bat 
 source .venv/bin/activate
-pip3 install -r requirements.txt
+
 ```
 
-**Second, Init db and run**
-```
-# modify .flaskenv and flaskshop/setting.py
-flask createdb
-flask seed
-flask run
+
 ```
 
 ### Use Docker 
