@@ -1,9 +1,8 @@
-# Flask Shop - An Amazing Project
+# Vue Weather APP
 
 
 ## Introduction
-This project is a front page copy of [saleor](https://github.com/mirumee/saleor) old version, but written with flask. 
-It hasn't completed yet.
+This project is a  Weather Application that calls data from a RestAPI
 
 ## ScreenShot
 
@@ -12,7 +11,7 @@ It hasn't completed yet.
 
 ## Quickstart
 
-### Use python virtual environment
+### 
 **First, Clone and Install dependence**
 ```
 git clone https://github.com/DanielPickens/Vue-Weather-App
