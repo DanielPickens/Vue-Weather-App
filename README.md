@@ -2,7 +2,7 @@
 
 
 ## Introduction
-My weather App that calls data from a RestAPI
+My weather App made with Vue.js
 
 ## ScreenShot
 
