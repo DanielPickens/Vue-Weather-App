@@ -7,42 +7,7 @@ It hasn't completed yet.
 
 ## ScreenShot
 
-<table align="center">
-    <tr>
-        <td align="center">
-            <a href="https://raw.githubusercontent.com/hjlarry/flask-shop/master/ScreenShot/1.png">
-                <img src="ScreenShot/1.png" alt="Screenshot Home" width="300px" />
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://raw.githubusercontent.com/hjlarry/flask-shop/master/ScreenShot/2.png">
-                <img src="ScreenShot/2.png" alt="Screenshot Category" width="300px" />
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://raw.githubusercontent.com/hjlarry/flask-shop/master/ScreenShot/3.png">
-                <img src="ScreenShot/3.png" alt="Screenshot Cart" width="300px" />
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <a href="https://raw.githubusercontent.com/hjlarry/flask-shop/master/ScreenShot/4.png">
-                <img src="ScreenShot/4.png" alt="Screenshot Admin Panel" width="300px" />
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://raw.githubusercontent.com/hjlarry/flask-shop/master/ScreenShot/5.png">
-                <img src="ScreenShot/5.png" alt="Screenshot Site Configuration" width="300px" />
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://raw.githubusercontent.com/hjlarry/flask-shop/master/ScreenShot/6.png">
-                <img src="ScreenShot/6.png" alt="Screenshot Order List" width="300px" />
-            </a>
-        </td>
-    </tr>
-</table>
+
 
 
 ## Quickstart
@@ -50,20 +15,16 @@ It hasn't completed yet.
 ### Use python virtual environment
 **First, Clone and Install dependence**
 ```
-git clone https://github.com/hjlarry/flask-shop.git
-cd flask-shop
-python3 -m venv .venv
-# on windows, you should run .venv\Scripts\activate.bat 
-source .venv/bin/activate
-pip3 install -r requirements.txt
+git clone https://github.com/DanielPickens/Vue-Weather-App
+cd Vue Weather App
+npm start
+
 ```
 
 **Second, Init db and run**
 ```
-# modify .flaskenv and flaskshop/setting.py
-flask createdb
-flask seed
-flask run
+# npm build
+# npm start
 ```
 
 ### Use Docker 
@@ -74,8 +35,7 @@ docker-compose up -d
 **Second, enter container and add fake data**
 ```
 docker-compose exec web sh
-flask createdb
-flask seed
+
 ```
 ### About Config
 The default admin account is:
@@ -92,4 +52,3 @@ npm install
 npm run build
 ```
 
-Redis and Elasticsearch is unabled by default, You can enable them for good performence and search ablitity.
