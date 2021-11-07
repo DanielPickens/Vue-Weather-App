@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This project is a  Weather Application that calls data from a RestAPI
+My weather App that calls data from a RestAPI
 
 ## ScreenShot
 
