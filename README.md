@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This project is a 
+This project is a Weather app made with Vue
 ## ScreenShot
 
 
