@@ -18,7 +18,6 @@ My weather App made with Vue.js
 git clone https://github.com/DanielPickens/Vue-Weather-App
 cd Vue Weather App
 npm start
-
 ```
 
 **If the js files has been modified, you need to:
