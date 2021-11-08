@@ -20,7 +20,7 @@ cd Vue Weather App
 npm start
 ```
 
-**If the js files has been modified, you need to:
+**If the js files have been modified, you need to:
 ```
 npm install
 npm run build
