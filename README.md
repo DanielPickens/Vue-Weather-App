@@ -10,6 +10,7 @@ My weather App made with Vue.js
 ![image](https://user-images.githubusercontent.com/72703981/140666066-648c3f9f-ce7b-44d3-afbb-a8fd15c81ca6.png)
 
 
+
 ## Quickstart
 
 ### 
