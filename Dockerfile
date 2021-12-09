@@ -3,7 +3,7 @@
 FROM node:alpine
 
 # Make the 'app' folder the current working directory
-WORKDIR /src
+WORKDIR /Vue-Weather-App
 
 # Copy project files and folders to the current working directory (i.e. 'app' folder)
 COPY . .
