@@ -1,26 +1,20 @@
-steps:
-# Build the container image
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/cicd-pipeline-334604/alpine', 'src']
-  timeout: 180s
+# Get a base Node image
+FROM node:alpine
 
-#Push the image
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/$cicd-pipeline-334604/myapp:v1']
+# Make the 'app' folder the current working directory
+WORKDIR /app
 
-- name: 'gcr.io/cloud-builders/gcloud'
-  entrypoint: "bash"
-  args:
-  - "-c"
-  - |
-    echo "Docker Container Built"
-    ls -la
-    ls -al models/
-# deploy container image to GKE
-- name: "gcr.io/cloud-builders/gke-deploy"
-  args:
-  - run
-  - --filename=K8s/
-  - --image=gcr.io/$cicd-pipeline-334604/myapp:v1
-  - --location=us-west1-b
-  - --cluster=mykube
+# Copy both 'package.json' and 'package-lock.json' (if present)
+COPY package*.json ./
+
+# Install project dependencies
+RUN npm install
+
+# Copy project files and folders to the current working directory (i.e. 'app' folder)
+COPY . .
+
+# Build app for production with minification
+RUN npm run build
+
+# Runs the website on http://localhost:8080
+CMD ["npm", "run", "serve"]
