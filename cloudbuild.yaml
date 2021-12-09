@@ -1,7 +1,7 @@
 steps:
-#Build the image
+# Build the container image
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$PROJECT_ID/myapp:v1', '.']
+  args: ['build', '-t', 'gcr.io/[PROJECT_ID]/[IMAGE]', '<DIR_CONTAINING_DOCKERFILE>']
   timeout: 180s
 
 #Push the image
