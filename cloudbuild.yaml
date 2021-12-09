@@ -1,0 +1,38 @@
+steps:
+# Step 1
+- name: 'gcr.io/cloud-builders/docker' 
+  entrypoint: 'bash'
+  args: [
+   '-c', 
+   'docker pull gcr.io/$cicd-pipeline-334604/my-app-vue:latest || exit 0'
+  ]
+# Step 2
+- name: gcr.io/cloud-builders/docker
+  args: [
+   'build', 
+   '-t', 
+   'gcr.io/$cicd-pipeline-334604/my-app-vue:latest',
+   '.'
+  ]
+  dir: 'my-app-vue'
+# Step 3
+- name: 'gcr.io/cloud-builders/kubectl'
+  args: ['apply', '-f', 'k8s/']
+  env:
+  - 'CLOUDSDK_COMPUTE_ZONE=us-west1-d'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=gke-my-app-vue'
+# Step 4
+- name: 'gcr.io/cloud-builders/kubectl'
+  args: [
+   'set', 
+   'image', 
+   'deployment', 
+   'my-app-vue', 
+   'my-app-vue=gcr.io/$cicd-pipeline-334604/my-app-vue:latest'
+  ]
+  env:
+  - 'CLOUDSDK_COMPUTE_ZONE=us-west1-d'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=gke-my-app-vue'
+  # Push the image to Google Container Registry with the latest tag
+images: [
+   'gcr.io/$cicd-pipeline-334604/my-app-vue:latest'
