@@ -9,3 +9,7 @@ README.md
 # This should contain all files created during `yarn build`.
 dist
 node_modules
+
+# ignore or exclude build directory
+*/build*
+*/*/build*
