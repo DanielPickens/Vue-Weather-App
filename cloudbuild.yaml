@@ -1,7 +1,7 @@
 steps:
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/cicd-pipeline-334604/alpine', '<DIR_CONTAINING_DOCKERFILE>']
+  args: ['build', '-t', 'gcr.io/cicd-pipeline-334604/alpine', 'src']
   timeout: 180s
 
 #Push the image
