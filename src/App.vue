@@ -26,7 +26,7 @@
           <spinner v-if="(!weather.consolidated_weather || loading) && !errorStr"></spinner>
           <div v-if="errorStr">
             <h3>Oops!</h3>
-            <p>Something went wrong!</p>
+            <p>Something just went wrong!</p>
           </div>
         </div>
 
