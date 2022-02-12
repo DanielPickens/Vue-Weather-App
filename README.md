@@ -29,7 +29,4 @@ npm install
 npm run build
 ```
 
-# Cloud Deployement
-
-Can be deployed to a GCP with  with cloudbuild.yaml file using inline trigger or regular non -inline build for the deployment.
 
