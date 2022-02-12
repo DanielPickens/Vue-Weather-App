@@ -4,8 +4,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-
-## Introduction
 My weather App made with Vue.js
 
 ## ScreenShot
