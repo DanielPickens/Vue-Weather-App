@@ -1,5 +1,6 @@
 # Vue Weather APP
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
 
 
 ## Introduction
