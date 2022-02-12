@@ -2,6 +2,8 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-grav.svg)](https://forthebadge.com)
+
 
 ## Introduction
 My weather App made with Vue.js
