@@ -6,7 +6,7 @@
 
 My weather App made with Vue.js
 
-## Model application image
+## Screenshot of POC
 
 ![image](https://user-images.githubusercontent.com/72703981/140666066-648c3f9f-ce7b-44d3-afbb-a8fd15c81ca6.png)
 
@@ -23,7 +23,7 @@ cd Vue Weather App
 npm start
 ```
 
-**If the js files have been modified, you need to:
+If the js files have been modified, you need to:
 ```
 npm install
 npm run build
