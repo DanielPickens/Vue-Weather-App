@@ -2,20 +2,20 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    run: my-app-vue
-  name: my-app-vue
+    run: vue-weather-app
+  name: vue-weather-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      run: my-app-vue
+      run: vue-weather-app
   template:
     metadata:
       labels:
-        run: my-app-vue
+        run: vue-weather-app
     spec:
       containers:
-      - image: gcr.io/cicd-project-334600/my-app-vue:latest #Replace [PROJECT-ID] accordingly
-        name: my-app-vue
+      - image: gcr.io/cicd-project-334600/vue-weather-app:latest #Replace [PROJECT-ID] accordingly
+        name: vue-weather-app
         ports:
         - containerPort: 8080
