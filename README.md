@@ -66,3 +66,19 @@ npm run build
 </ul>
 
 ---
+
+## Contributing
+
+**Want to contribute to this project?**
+
+- :fork_and_knife: Fork this [repo][link-repo]
+- :fire: Add your awesome new feature
+- :point_right: Submit a [pull request][link-pull-request]
+
+## Issue
+
+**..So you found a bug :bug: now what...**
+
+Just open up an issue and describe the problems you are experiencing.
+
+- [issue][link-issue] - Describe the bug you are having here
