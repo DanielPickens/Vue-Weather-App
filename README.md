@@ -35,7 +35,7 @@ npm run build
 - Vue CLI
 - Bootstrap 4
 - BootstrapVue
-- Javascript (ECMAScript 2020)
+- Javascript (ECMAScript 2021)
 
 # Features
 
