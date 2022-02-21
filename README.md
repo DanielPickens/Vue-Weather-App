@@ -71,7 +71,7 @@ npm run build
 
 **Want to contribute to this project?**
 
-- :fork_and_knife: Fork this [repo][link-repo]
+- :fork_and_knife: Fork this [repo][https://github.com/DanielPickens/Vue-Weather-App]
 - :fire: Add your awesome new feature
 - :point_right: Submit a [pull request][link-pull-request]
 
