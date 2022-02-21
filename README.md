@@ -71,9 +71,9 @@ npm run build
 
 **Want to contribute to this project?**
 
-- :fork_and_knife: Fork this [repo][https://github.com/DanielPickens/Vue-Weather-App]
+- :fork_and_knife: Fork this repo
 - :fire: Add your awesome new feature
-- :point_right: Submit a [pull request][https://github.com/DanielPickens/Vue-Weather-App/pulls]
+- :point_right: Submit a pull request
 
 ## Issue
 
@@ -81,4 +81,4 @@ npm run build
 
 Just open up an issue and describe the problems you are experiencing.
 
-- [][https://github.com/DanielPickens/Vue-Weather-App/issues] - Describe the bug you are having here
+- Add a issue - Describe the bug you are having here
