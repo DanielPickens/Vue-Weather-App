@@ -73,7 +73,7 @@ npm run build
 
 - :fork_and_knife: Fork this [repo][https://github.com/DanielPickens/Vue-Weather-App]
 - :fire: Add your awesome new feature
-- :point_right: Submit a [pull request][link-pull-request]
+- :point_right: Submit a [pull request][https://github.com/DanielPickens/Vue-Weather-App/pulls]
 
 ## Issue
 
