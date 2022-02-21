@@ -39,7 +39,7 @@ npm run build
 
 # Features
 
-- Searchable weather forecast for any city in the USA and abroad.
+- Searchable weather forecast for any city in the USA.
 - Displays current weather forecast for days and nights.
 - Shows current weather forecast and condition for city.
   - current weather's `temperature`.
