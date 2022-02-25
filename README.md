@@ -81,3 +81,4 @@ npm run build
 
 Just open up an issue and describe the problems you are experiencing.
 
+- Add a issue - Describe the bug you are having here : https://github.com/DanielPickens/Vue-Weather-App/issues
